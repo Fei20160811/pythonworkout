@@ -34,4 +34,4 @@ def print_scores(file_path):
             
         
         
-print_scores(r'./sample/9a.json')
+#print_scores(r'./sample/9a.json')
