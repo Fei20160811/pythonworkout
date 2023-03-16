@@ -62,6 +62,7 @@ def prefix_cal(to_solve):
     prefix_list = to_solve.split(' ')
     prefix_len = len(prefix_list)
     
+    #每次進入迴圈重算一次list大小
     while len(prefix_list) > 1:
         for i in range(prefix_len - 2):
             #每三個一組切片
